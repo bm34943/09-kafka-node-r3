@@ -1,0 +1,35 @@
+{
+    "local":
+    {
+        "BROKER_HOST"                               : "localhost:9091,localhost:9092,localhost:9093",
+        "BROKER_CONNECT_TIMEOUT"                    : 10000,
+        "BROKER_REQUEST_TIMEOUT"                    : 60000,
+        "BROKER_AUTO_CONNECT"                       : true,
+        "BROKER_MAX_ASYNC_REQUESTS"                 : 10,
+        "TOPIC_PARTITION_COUNT"                     : 1,
+        "TOPIC_NAME"                                : "timeline-tx-01",
+        "TOPIC_TIMELINE_ID"                         : "1",
+        "PRODUCER_REQUIRE_ACKS"                     : 1,
+        "PRODUCER_ACKS_TIMEOUT"                     : 50,
+        "PRODUCER_PARTITONER_TYPE"                  : 3,
+        "PRODUCER_TIMEOUT"                          : 100,
+        "PRODUCER_COMPRESSION_ATTRIBUTE"            : 0,
+        "PRODUCER_MESSAGE_COUNT"                    : 10000,
+        "CONSUMER_GROUP_ID"                         : "cg-timeline-tx-01",
+        "CONSUMER_AUTO_COMMIT"                      : true,
+        "CONSUMER_AUTO_COMMIT_INTERVAL"             : 1000,
+        "CONSUMER_FETCH_MAX_WAIT"                   : 10,
+        "CONSUMER_FETCH_MIN_BYTES"                  : 1,
+        "CONSUMER_FETCH_MAX_BYTES"                  : 1048576,
+        "CONSUMER_FROM_OFFSET"                      : false,
+        "CONSUMER_ENCODING"                         : "utf8",
+        "CONSUMER_KEY_ENCODING"                     : "utf8",
+        "DB_HOST"                                   : "localhost",
+        "DB_USER"                                   : "root",
+        "DB_PASSWORD"                               : "masimukku",
+        "DB_NAME"                                   : "timeline-tx-db",
+        "DB_POOL"                                   : "false",
+        "DB_POOL_SIZE"                              : "10",
+        "DB_ACQUIRE_TIMEOUT"                        : "86400000"
+    }
+}
