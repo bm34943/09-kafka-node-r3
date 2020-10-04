@@ -1,4 +1,13 @@
 /*
+Install MySQL using Docker
+docker run -p 3306:3306 --name mbk-mysql -e MYSQL_ROOT_PASSWORD=<root_password> -d mysql:latest
+docker exec -it <mysql_container_id> sh
+mysql -u root -p
+ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY '<root_password>';
+flush privileges;
+*/
+
+/*
  Navicat MySQL Data Transfer
 
  Source Server         : mbk-mysql
